@@ -42928,7 +42928,7 @@ i.versions={};function g(){}i.on=g;i.addListener=g;i.once=g;i.off=g;i.removeList
  */var n=/** @class */function(t){s(e,t);function e(){return t!==null&&t.apply(this,arguments)||this}e.prototype.preload=function(){this.game.load.image("logo","assets/images/logo.png")};e.prototype.create=function(){this.setScale();Phaser.Canvas.setImageRenderingCrisp(this.game.canvas);this.game.state.start("Preload")};
 /**
      * Setup propper game scaling.
-     */e.prototype.setScale=function(){this.game.scale.pageAlignHorizontally=true;this.game.scale.pageAlignVertically=true;this.game.scale.forcePortrait=true;this.game.scale.aspectRatio=1.28;this.game.scale.scaleMode=Phaser.ScaleManager.SHOW_ALL};return e}(r.State);e.BootState=n;
+     */e.prototype.setScale=function(){this.game.scale.pageAlignHorizontally=true;this.game.scale.pageAlignVertically=true;this.game.scale.forcePortrait=true;this.game.scale.aspectRatio=1.28;this.game.scale.scaleMode=Phaser.ScaleManager.EXACT_FIT};return e}(r.State);e.BootState=n;
 /***/},
 /* 13 */
 /***/function(t,e,i){"use strict";var s=this&&this.__extends||function(){var s=function(t,e){s=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var i in e)if(e.hasOwnProperty(i))t[i]=e[i]};return s(t,e)};return function(t,e){s(t,e);function i(){this.constructor=t}t.prototype=e===null?Object.create(e):(i.prototype=e.prototype,new i)}}();Object.defineProperty(e,"__esModule",{value:true});e.PreloadState=void 0;var r=i(1);
