@@ -2,7 +2,7 @@
   "name": "pacman-pwa",
   "version": "1.0.0",
   "description": "Pacman PWA arcade game build with Phaser & TypeScript.",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --hot --port 3000",
     "build": "webpack",
